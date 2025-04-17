@@ -8,6 +8,7 @@ import {
   createAmplifyAuthAdapter,
   createStorageBrowser,
 } from '@aws-amplify/ui-react-storage/browser';
+import { ThemeProvider } from '@aws-amplify/ui-react';
 
 Amplify.configure(outputs);
 
